@@ -54,5 +54,4 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 ### 6. Contact Us
 If you have any questions, suggestions, or concerns regarding this Privacy Policy or the App, please contact us at:
 
-* **Developer:** rafbeldev
-* **Email:** support@example.com *(Replace with your actual contact email)*
+* **Email:** rafbeldev@proton.me
