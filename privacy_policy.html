@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ailu: Ensemble Weather</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --primary: #0284c7;
+            --border-color: #e2e8f0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0f172a;
+                --card-bg: #1e293b;
+                --text-main: #f1f5f9;
+                --text-muted: #94a3b8;
+                --primary: #38bdf8;
+                --border-color: #334155;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 36px 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+        h1 {
+            font-size: 1.75rem;
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .date {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 6px;
+        }
+        h3 {
+            font-size: 1.05rem;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 0.975rem;
+            color: var(--text-main);
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background-color: rgba(2, 132, 199, 0.08);
+            border-left: 4px solid var(--primary);
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 16px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="date">Ailu: Ensemble Weather &bull; Last Updated: August 19, 2026</div>
+
+    <div class="highlight">
+        <strong>Privacy Summary:</strong> Ailu: Ensemble Weather does not collect, store, sell, or share any personal information, device identifiers, or GPS sensor location data.
+    </div>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <ul>
+        <li><strong>Personal Information:</strong> We do not collect names, email addresses, phone numbers, addresses, or account identifiers. No registration or account creation is required.</li>
+        <li><strong>Device Identifiers:</strong> We do not collect or track hardware IDs, Android ID, IMEI, MAC addresses, Advertising IDs (AAID), or Firebase installation IDs.</li>
+        <li><strong>Device GPS Location:</strong> The App does not request or use Android location permissions (<code>ACCESS_FINE_LOCATION</code> or <code>ACCESS_COARSE_LOCATION</code>). We do not monitor your physical whereabouts.</li>
+        <li><strong>Analytics & Telemetry:</strong> We do not embed any third-party analytics or behavioral tracking SDKs.</li>
+        <li><strong>Advertisements:</strong> The App is ad-free and contains no advertising networks.</li>
+    </ul>
+
+    <h2>2. Information Handled by the App</h2>
+    
+    <h3>A. Weather Queries & Geocoding (Open-Meteo API)</h3>
+    <p>To provide meteorological forecast data, the App communicates with the <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo API</a>:</p>
+    <ul>
+        <li>When you search for a city or input latitude and longitude coordinates, these coordinates are sent securely over HTTPS to Open-Meteo to fetch model data.</li>
+        <li>No personally identifiable information or device IDs are attached to these network requests.</li>
+        <li>For further details, please refer to the <a href="https://open-meteo.com/en/features#privacy" target="_blank" rel="noopener">Open-Meteo Privacy Policy</a>.</li>
+    </ul>
+
+    <h3>B. Local On-Device Storage</h3>
+    <p>The App stores your preferences locally on your device storage (via Android DataStore and SQLite):</p>
+    <ul>
+        <li>Measurement unit preferences (°C/°F, km/h, mm, etc.).</li>
+        <li>Custom chart appearance, model colors, and line styles.</li>
+        <li>Theme settings (Light/Dark/System Default).</li>
+        <li>Local cache of recent location searches and forecast data for offline access.</li>
+    </ul>
+    <p>This data never leaves your device and can be removed at any time by clearing the App's data in Android Settings or by uninstalling the application.</p>
+
+    <h2>3. Data Security</h2>
+    <p>All network communications between the App and the Open-Meteo API are encrypted in transit using industry-standard HTTPS (Transport Layer Security - TLS).</p>
+
+    <h2>4. Children’s Privacy</h2>
+    <p>The App does not collect any personal information from children or any other users. It is fully suitable and safe for all age groups.</p>
+
+    <h2>5. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy periodically. Any modifications will be reflected on this page with a revised "Last Updated" date.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+    <ul>
+        <li><strong>Developer:</strong> rafbeldev</li>
+        <li><strong>Email:</strong> <a href="mailto:support@example.com">support@example.com</a> <em>(Replace with your support email)</em></li>
+    </ul>
+</div>
+
+</body>
+</html>
